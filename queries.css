@@ -1,0 +1,21 @@
+@media (max-width: 70rem) {
+  html {
+    font-size: 50%;
+  }
+  body {
+    flex-direction: column;
+
+    /* overscroll-behavior-y: scroll; */
+  }
+
+  .sidebar {
+    flex-basis: 20rem;
+    height: 40rem;
+  }
+
+  #map {
+    height: 40vh; /* sau 100vh dacă vrei să ocupe tot ecranul */
+
+    flex: 1;
+  }
+}
